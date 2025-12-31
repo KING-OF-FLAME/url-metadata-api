@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/KING-OF-FLAME/url-metadata-api">
-    <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=MetaAPI" alt="Logo" width="150" height="150">
+    <img src="https://i.ibb.co/yny4dWkD/URL-Metadata-Preview-API.jpg" alt="Logo" width="150" height="150">
   </a>
 </p>
 
