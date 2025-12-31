@@ -1,4 +1,4 @@
-# 🔗 URL Metadata & Preview API
+#  URL Metadata & Preview API
 
 <p align="center">
   <a href="https://github.com/KING-OF-FLAME/url-metadata-api">
@@ -26,7 +26,7 @@
 
 ---
 
-## 📍 About The Project
+##  About The Project
 
 Building link previews (like WhatsApp or Slack) is harder than it looks. Developers waste hours handling redirects, parsing broken HTML, and fighting 502 errors.
 
@@ -46,24 +46,24 @@ Building link previews (like WhatsApp or Slack) is harder than it looks. Develop
 
 ---
 
-## 📍 Features
+##  Features
 
-### 🧠 Core Analysis Engine
+### Core Analysis Engine
 
-* **🖼️ Social Previews:** Extracts `og:title`, `og:description`, `og:image`.
-* **🔗 Smart Canonicalization:** Converts relative URLs into absolute paths.
-* **🛡️ Security & Stability:** Prevents infinite redirects & large payload abuse.
-* **⚡ Performance Metrics:** Response time and page size tracking.
+* **1) Social Previews:** Extracts `og:title`, `og:description`, `og:image`.
+* **2) Smart Canonicalization:** Converts relative URLs into absolute paths.
+* **3) Security & Stability:** Prevents infinite redirects & large payload abuse.
+* **4) Performance Metrics:** Response time and page size tracking.
 
-### ⚙️ Architecture & Tech
+###  Architecture & Tech
 
-* **🚀 cURL Optimized:** Uses browser‑like headers.
-* **🛡️ Fail-Safe Execution:** Prevents server overload using timeout guards.
-* **📂 No Database Required:** Plug‑and‑play API.
+* **1) cURL Optimized:** Uses browser‑like headers.
+* **2) Fail-Safe Execution:** Prevents server overload using timeout guards.
+* **3) No Database Required:** Plug‑and‑play API.
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 * **Core:** PHP 8.0+
 * **Network:** cURL
@@ -72,15 +72,15 @@ Building link previews (like WhatsApp or Slack) is harder than it looks. Develop
 
 ---
 
-## ⚙️ Installation Guide
+##  Installation Guide
 
-### 📂 Prerequisites
+###  Prerequisites
 
 1. PHP 8.0+
 2. php-curl enabled
 3. php-xml enabled
 
-### 🚀 Setup Steps
+###  Setup Steps
 
 ```bash
 git clone https://github.com/KING-OF-FLAME/url-metadata-api.git
@@ -112,7 +112,7 @@ chmod -R 755 logs
 
 ---
 
-## 🔧 Configuration
+##  Configuration
 
 Edit `config/config.php`
 
@@ -126,7 +126,7 @@ return [
 
 ---
 
-## 📡 API Usage
+##  API Usage
 
 ### Endpoint
 
@@ -162,7 +162,7 @@ GET /index.php?url=https://example.com
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```
 url-metadata-api/
@@ -182,7 +182,7 @@ url-metadata-api/
 
 ---
 
-## 🤝 Contributions
+## Contributions
 
 1. Fork the repo
 2. Create your branch
@@ -191,7 +191,7 @@ url-metadata-api/
 
 ---
 
-## 📧 Contact
+## Contact
 
-**GitHub:** [https://github.com/KING-OF-FLAME](https://github.com/KING-OF-FLAME)
-**Instagram:** [https://instagram.com/yash.developer](https://instagram.com/yash.developer)
+Github: [KING OF FLAME](https://github.com/KING-OF-FLAME)
+Instagram: [yash.developer](https://instagram.com/yash.developer)
