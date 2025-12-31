@@ -33,7 +33,7 @@ Building link previews (like WhatsApp or Slack) is harder than it looks. Develop
 **This API solves that.** It acts as a robust middleware that fetches any URL, cleans the data, and returns a standardized JSON response ready for your application.
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x400/101010/FFFFFF/?text=API+Response+Preview" alt="API Response Example" width="800">
+  <img src="https://i.ibb.co/dJBwcvcf/Screenshot-2025-12-22-213927.png" alt="API Response Example" width="800">
   <br>
   <i>(Clean, structured data extraction in &lt; 800ms)</i>
 </p>
