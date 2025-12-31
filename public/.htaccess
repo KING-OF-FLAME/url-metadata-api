@@ -1,0 +1,28 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # ----------------------------------------------------------------------
+    # 1. Security Options
+    # ----------------------------------------------------------------------
+    # Prevent directory listing (users can't see list of files)
+    Options -Indexes
+
+    # Block access to hidden files (starting with .) except .well-known (for SSL)
+    RewriteRule "(^|/)\.(?!well-known/)" - [F]
+
+    # ----------------------------------------------------------------------
+    # 2. CORS Headers (Optional Backup)
+    # ----------------------------------------------------------------------
+    # We handle this in PHP, but this is a fail-safe for the server level.
+    <IfModule mod_headers.c>
+        Header set Access-Control-Allow-Origin "*"
+    </IfModule>
+
+    # ----------------------------------------------------------------------
+    # 3. Routing Logic
+    # ----------------------------------------------------------------------
+    # Route all requests to index.php if the file/folder doesn't exist
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>
